@@ -75,7 +75,7 @@
 ;     ("^[^ \n][^\n]+\n=+$" nil ,(remove :line *h1-style*))
 ;     ("^[^ \n][^\n]+\n-+$" nil ,(remove :line *h2-style*))
      ("^=+$" nil ,(remove :line *h1-style*))
-     ("^-+$" nil ,(remove :line *h2-style*))
+     ("^-+$" nil ,(remove :line *h1-style*))
 ;     ("\n\\([-*_]\\)\\1\\1+\n" nil ,*horizontal-line-style*)
      ("`[^\n`]+`" nil ,*code-style*)
      ("\\*\\*\\*[^\n*]+\\*\\*\\*" nil ,*italic-bold-style*)

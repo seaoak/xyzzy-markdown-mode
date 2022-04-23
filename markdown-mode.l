@@ -59,7 +59,7 @@
 (defparameter *listmarker-style* '(:color 10 0 :bold))
 (defparameter *code-style* '(:color 12 0))
 (defparameter *code-block-style* '(:color 1 0))
-(defparameter *tail-space-style* '(:color 10 0 :underline))
+(defparameter *tail-space-style* '(:color 15 0 :underline))
 (defparameter *italic-style* '(:keyword 2))
 (defparameter *bold-style* '(:color 0 0 :bold))
 (defparameter *italic-bold-style* '(:keyword 2 :bold))

@@ -46,6 +46,7 @@
 	  *h1-style* *h2-style* *h3-style* *h4-style* *h5-style* *h6-style*
 	  *italic-style* *bold-style* *italic-bold-style*
 	  *listmarker-style* *code-style* *code-block-style* *tail-space-style*
+	  *shell-prompt-style*
 	  ))
 
 (defvar *markdown-default-horizontal-rule* "*****")
@@ -60,6 +61,7 @@
 (defparameter *code-style* '(:color 12 0))
 (defparameter *code-block-style* '(:color 11 0))
 (defparameter *tail-space-style* '(:color 15 0 :underline))
+(defparameter *shell-prompt-style* '(:color 11 0))
 (defparameter *italic-style* '(:keyword 2))
 (defparameter *bold-style* '(:color 0 0 :bold))
 (defparameter *italic-bold-style* '(:keyword 2 :bold))
@@ -83,6 +85,7 @@
 	 ("^```+\\([a-zA-Z0-9][-._,:=a-zA-Z0-9]*\\)?$" nil ,*code-block-style*)
 ;	 ("^\\(```+\\)[^`\n]*\\([\n].*\\)*?[\n]\\1$" nil ,*code-block-style*)
      (" +$" nil ,*tail-space-style*)
+     ("^[#$>]\\( .*\\)?$" nil ,*shell-prompt-style*)
      ("\\*\\*\\*[^\n*]+\\*\\*\\*" nil ,*italic-bold-style*)
      ("\\*\\*[^\n*]+\\*\\*" nil ,*bold-style*)
      ("\\*[^\n*]+\\*" nil ,*italic-style*)

@@ -65,7 +65,7 @@
 
 (defun make-regexp-keyword-list ()
   (compile-regexp-keyword-list
-   `(("^# .+" nil ,*h1-style*)
+   `(;("^# .+" nil ,*h1-style*)
      ("^## .+" nil ,*h2-style*)
      ("^### .+" nil ,*h3-style*)
      ("^#### .+" nil ,*h4-style*)

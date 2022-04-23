@@ -83,7 +83,7 @@
      ("\\*[^\n*]+\\*" nil ,*italic-style*)
      ("___[^\n_]+___" nil ,*italic-bold-style*)
      ("__[^\n_]+__" nil ,*bold-style*)
-     ("_[^\n_]+_" nil ,*italic-style*)
+;     ("_[^\n_]+_" nil ,*italic-style*)
      )))
 
 (defvar *markdown-use-setext-style* t)

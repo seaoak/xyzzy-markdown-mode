@@ -50,10 +50,10 @@
 
 (defvar *markdown-default-horizontal-rule* "*****")
 
-(defparameter *h1-style* '(:color 7 4 :line :bold))
-(defparameter *h2-style* '(:color 7 14 :line :bold))
-(defparameter *h3-style* '(:color 9 0 :underline :bold))
-(defparameter *h4-style* '(:color 11 0 :underline))
+(defparameter *h1-style* '(:color 7 14 :line :bold))
+(defparameter *h2-style* '(:color 7 4 :bold))
+(defparameter *h3-style* '(:color 9 0 :bold))
+(defparameter *h4-style* '(:color 11 0 :bold))
 (defparameter *h5-style* '(:color 14 0))
 (defparameter *h6-style* '(:color 12 0))
 (defparameter *listmarker-style* '(:color 10 0 :bold))

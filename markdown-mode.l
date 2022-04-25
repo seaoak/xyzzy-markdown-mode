@@ -58,7 +58,7 @@
 (defparameter *h5-style* '(:color 3 0))
 (defparameter *h6-style* '(:color 6 0))
 (defparameter *listmarker-style* '(:color 10 0 :bold))
-(defparameter *code-style* '(:color 12 0))
+(defparameter *code-style* '(:keyword 0))
 (defparameter *code-block-style* '(:color 11 0))
 (defparameter *tail-space-style* '(:color 15 0 :underline))
 (defparameter *shell-prompt-style* '(:color 11 0))
